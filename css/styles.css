@@ -1,0 +1,98 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(rgb(183, 202, 243), rgb(61, 207, 252), rgb(211, 247, 244));
+}
+
+.rocket {
+    right: 650px;
+    top: 200px;
+    width: 56px;
+    height: 380px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+}
+
+.rocket-capsule {
+    top: -125px;
+    right: -7px;
+    width: 70px;
+    height: 120px;
+    background-color: #fff;
+    position: absolute;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+.capsule-details {
+    width: 50px;
+    height: 0px;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 6px solid #b4b4b4;
+    position: absolute;
+    top: -5px;
+    right: -7px;
+}
+
+.motors, 
+.motors::before {
+    width: 56px;
+    height: 300px;
+    background-color: #fff;
+    position: absolute;
+    top: 80px;
+    right: 60px;
+    border-top-right-radius: 40%;
+    border-top-left-radius: 40%;
+}
+
+.motors::before {
+    content: "";
+    top: 0;
+    left: 120px;
+}
+
+.thrusters {
+    width: 56px;
+    height: 20px;
+    background-color: rgb(61, 61, 61);
+    position: absolute;
+    top: 370px;
+    border-bottom-right-radius: 35%;
+    border-bottom-left-radius: 35%;
+}
+
+.thrusters.one {
+    width: 56px;
+    height: 20px;
+    background-color: rgb(61, 61, 61);
+    position: absolute;
+    top: 370px;
+    right: 60px;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+}
+
+.thrusters.two {
+    width: 56px;
+    height: 20px;
+    background-color: rgb(61, 61, 61);
+    position: absolute;
+    top: 370px;
+    left: 60px;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+}
+
+.details {
+    width: 10px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50px 50px 0 0;
+    position: relative;
+    top: 15px;
+    left: 6px;
+    z-index: -1;
+}
