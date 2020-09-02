@@ -1,1 +1,1 @@
-# Rocket this is an animation that i'm working on, with pure css
+This is a draw of iron man made with pure css, for practicing and trying to improve my skills with css amd html.
