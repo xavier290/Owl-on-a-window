@@ -1,1 +1,1 @@
-This is a draw made with html and css. 
+This owl made with pure css, was kind of funny to make, even though i did not know what to do at the first place, but it's always intersting to make something new.
