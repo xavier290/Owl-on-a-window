@@ -24,6 +24,21 @@ body {
     height: 10px;
 }
 
+.bars, .bars::before {
+    top: 0;
+    right: 0;
+    position: absolute;
+    background-color: #385894;
+    width: 10px;
+    height: 340px;
+}
+
+.bars::before {
+    content: "";
+    top: 0;
+    right: 230px;
+}
+
 .star1 {
     position: relative;
     top: 40px;
@@ -56,8 +71,8 @@ body {
 
 .star4 {
     position: relative;
-    top: 110px;
-    left: 40px;
+    top: 130px;
+    left: 30px;
     background-color: rgb(214, 203, 52);
     width: 6px;
     height: 6px;
@@ -66,7 +81,7 @@ body {
 
 .moon-container{
     position: relative;
-    top: 1em; 
+    top: 2em; 
     left: 2em;
 }
 .moon{
@@ -77,5 +92,5 @@ body {
     box-shadow:-20px 8px 0 0px #e8ae4a;
     position: absolute;
     left: 3em; 
-    top: 1em;
+    top: 2em;
 }
