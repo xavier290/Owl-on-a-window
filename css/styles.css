@@ -99,6 +99,16 @@ body {
     border-radius: 50%;
 }
 
+.star7 {
+    position: relative;
+    top: 150px;
+    left: 140px;
+    background-color: rgb(214, 203, 52);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
 .moon-container{
     position: relative;
     top: 2em; 
