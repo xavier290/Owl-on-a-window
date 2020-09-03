@@ -1,10 +1,8 @@
 body {
     background-color: #C9533E;
-}
-
-.container {
-    width: 100%;
-    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .window {
@@ -17,42 +15,67 @@ body {
     height: 340px;
 }
 
+.middle-bar {
+    top: 280px;
+    right: 550px;
+    position: absolute;
+    background-color: black;
+    width: 260px;
+    height: 10px;
+}
+
 .star1 {
     position: relative;
-    top: 50px;
-    left: 180px;
+    top: 40px;
+    left: 200px;
     background-color: rgb(214, 203, 52);
-    width: 5px;
-    height: 5px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
 }
 
 .star2 {
     position: relative;
-    top: 70px;
-    left: 100px;
+    top: 45px;
+    left: 110px;
     background-color: rgb(214, 203, 52);
-    width: 5px;
-    height: 5px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
 }
 
 .star3 {
     position: relative;
-    top: 140px;
+    top: 130px;
     left: 190px;
     background-color: rgb(214, 203, 52);
-    width: 5px;
-    height: 5px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
 }
 
 .star4 {
     position: relative;
-    top: 120px;
+    top: 110px;
     left: 40px;
     background-color: rgb(214, 203, 52);
-    width: 5px;
-    height: 5px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
+}
+
+.moon-container{
+    position: relative;
+    top: 1em; 
+    left: 2em;
+}
+.moon{
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    border-radius: 50px;
+    box-shadow:-20px 8px 0 0px #e8ae4a;
+    position: absolute;
+    left: 3em; 
+    top: 1em;
 }
