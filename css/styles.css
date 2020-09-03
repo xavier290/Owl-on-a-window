@@ -13,6 +13,7 @@ body {
     border: 10px solid black;
     width: 240px;
     height: 340px;
+    z-index: 0;
 }
 
 .middle-bar {
@@ -109,12 +110,13 @@ body {
     border-radius: 50%;
 }
 
-.moon-container{
+.moon-container {
     position: relative;
-    top: 2em; 
-    left: 2em;
+    top: -3em; 
+    left: 0;
 }
-.moon{
+
+.moon {
     width: 80px;
     height: 80px;
     background: transparent;
@@ -123,4 +125,99 @@ body {
     position: absolute;
     left: 3em; 
     top: 2em;
+}
+
+.owl-container {
+    position: absolute;
+    top: 11.5em;
+    left: 40em;
+    z-index: 1;
+}
+
+.owl {
+    width: 100px;
+    height: 140px;
+    background: transparent;
+    border-radius: 0 0 40px 40px;
+    box-shadow: -1px 132px 2px 0 #462f07;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.eyes-owl, .eyes-owl::before {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(143, 94, 2, 0.781);
+    box-shadow: 0 0 8px 0;
+    position: absolute;
+    top: 9.8em;
+    left: 10px;
+}
+
+.eyes-owl::before {
+    content: "";
+    top: 0;
+    left: 50px;
+}
+
+.iris, .iris::before {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: linear-gradient(#462f07 50%, rgba(255, 255, 255, 0.664) 50%);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.iris::before {
+    content: "";
+    top: 0;
+    left: 50px;
+}
+
+.pupil, .pupil::before {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: linear-gradient(transparent 50%, black 30%);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.pupil::before {
+    content: "";
+    top: 0;
+    left: 50px;
+}
+
+.owl-beak {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right:8px solid transparent;
+    border-top: 12px solid rgb(143, 94, 2, 0.781);
+    position: relative;
+    top: 12em;
+    left: 42px;
+}
+
+.wings, .wings::before {
+    width: 30px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #473008;
+    top: 198px;
+    right: -8px;
+    box-shadow: 0 0 1px 0;
+}
+
+.wings::before {
+    content: "";
+    top: 0;
+    right: -80px;
 }
