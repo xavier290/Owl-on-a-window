@@ -210,7 +210,7 @@ body {
     height: 70px;
     border-radius: 50%;
     position: absolute;
-    background-color: #473008;
+    background-color: #462f07;
     top: 198px;
     right: -8px;
     box-shadow: 0 0 1px 0;
@@ -220,4 +220,20 @@ body {
     content: "";
     top: 0;
     right: -80px;
+}
+
+.owl-legs, .owl-legs::before {
+    width: 15px;
+    height: 8px;
+    background-color: rgb(143, 94, 2, 0.781);
+    border-radius: 30%;
+    position: absolute;
+    top: 16.5em;
+    left: 1.6em;
+}
+
+.owl-legs::before {
+    content: "";
+    top: 0;
+    left: 2.1em;
 }
