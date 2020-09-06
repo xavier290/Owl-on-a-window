@@ -1,19 +1,23 @@
 body {
     background-color: #C9533E;
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+.window-container {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
 .window {
-    top: 100px;
-    right: 550px;
+    top: 6.25em;
+    right:  34.375em;
     position: absolute;
     background-color: #29467A;
     border: 10px solid black;
     width: 240px;
     height: 340px;
-    z-index: 0;
 }
 
 .middle-bar {
@@ -131,7 +135,6 @@ body {
     position: absolute;
     top: 11.5em;
     left: 40em;
-    z-index: 1;
 }
 
 .owl {
